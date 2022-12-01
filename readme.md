@@ -2,29 +2,32 @@
 
 A suggested method of charging for Behaviour Driven Development.
 
-````
-while (unreleased features exist) {
-    write scenarios for next release
+```
+elicit features from project scope
+
+while ( features on backlog ) {
+    select features for next release
+    create aceptance criteria for features
     charge time
 
-    if (quote required for next release) {
+    if ( quote required for next release ) {
         quote for release
 
-        if (quote rejected and no resolution) {
-            client takes scenarios to another Agile Team
+        if ( quote rejected and no resolution ) {
+            client takes aceptance criteria to another Agile team
         }
 
-        if (quote accepted) {
-            develop and release features
+        if ( quote accepted ) {
+            develop, test and release features
             charge quote value
         }
 
     } else {
-       develop and release features
+       develop, test and release features
        charge time
     }
 }
-````
+```
 
 ### Advantages
 * Gives the client a choice of pay-for-release or pay-for-time.
