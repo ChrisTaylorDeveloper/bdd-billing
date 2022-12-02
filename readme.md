@@ -1,5 +1,7 @@
 # Charging framework for application development
 
+Pseudocode:
+
 ```
  1    create project scope
  2    charge time
